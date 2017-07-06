@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/slideleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/slideright"
+        android:layout_marginRight="29dp"
+        android:layout_toLeftOf="@+id/newgame"
+        android:src="@drawable/slideleft" />
+
+    <ImageView
+        android:id="@+id/slideright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/newgame"
+        android:layout_marginBottom="33dp"
+        android:layout_marginLeft="27dp"
+        android:layout_toRightOf="@+id/newgame"
+        android:src="@drawable/slideright" />
+
+    <ImageView
+        android:id="@+id/newgame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/newgame" />
+
+    <ImageView
+        android:id="@+id/highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/newgame"
+        android:layout_toLeftOf="@+id/slideright"
+        android:src="@drawable/highscore" />
+
+    <ImageView
+        android:id="@+id/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/newgame"
+        android:layout_toLeftOf="@+id/slideright"
+        android:src="@drawable/options" />
+
+    <ImageView
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/newgame"
+        android:layout_alignLeft="@+id/newgame"
+        android:src="@drawable/exit" />
+
+</RelativeLayout>

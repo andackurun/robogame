@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/RedLed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="63dp"
+        android:text="@string/red_led"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/GreenLed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/BlueLed"
+        android:layout_alignBottom="@+id/BlueLed"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="21dp"
+        android:text="@string/green_led"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/YellowLed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/RedLed"
+        android:layout_alignBottom="@+id/RedLed"
+        android:layout_marginLeft="28dp"
+        android:layout_toRightOf="@+id/RedLed"
+        android:text="@string/yellow_led"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/BlueLed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/YellowLed"
+        android:layout_alignBottom="@+id/YellowLed"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@+id/YellowLed"
+        android:text="@string/blue_led"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/RedCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RedLed"
+        android:layout_below="@+id/RedLed"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/_"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/YellowCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/RedCheck"
+        android:layout_alignBottom="@+id/RedCheck"
+        android:layout_alignLeft="@+id/YellowLed"
+        android:layout_marginLeft="36dp"
+        android:text="@string/_"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/BlueCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/YellowCheck"
+        android:layout_alignBottom="@+id/YellowCheck"
+        android:layout_alignLeft="@+id/BlueLed"
+        android:layout_marginLeft="26dp"
+        android:text="@string/_"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/GreenCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/BlueCheck"
+        android:layout_alignBottom="@+id/BlueCheck"
+        android:layout_alignLeft="@+id/GreenLed"
+        android:layout_marginLeft="30dp"
+        android:text="@string/_"
+        android:textSize="30sp" />
+
+</RelativeLayout>

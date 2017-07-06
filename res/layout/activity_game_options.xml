@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <ImageView
+        android:id="@+id/solorace"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="21dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/solorace" />
+
+    <ImageView
+        android:id="@+id/multirace"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="18dp"
+        android:src="@drawable/multiplayerrace" />
+
+    <ImageView
+        android:id="@+id/lasertag"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/solorace"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/lasertag" />
+
+</RelativeLayout>

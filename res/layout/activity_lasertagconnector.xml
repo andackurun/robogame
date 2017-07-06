@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/hostText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="53dp"
+        android:text="@string/host"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/otherPlayerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hostText"
+        android:layout_below="@+id/hostText"
+        android:layout_marginTop="36dp"
+        android:text="@string/otherplayer"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/carOneText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/otherPlayerText"
+        android:layout_below="@+id/otherPlayerText"
+        android:layout_marginTop="42dp"
+        android:text="carOne" />
+
+    <TextView
+        android:id="@+id/carTwoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/carOneText"
+        android:layout_below="@+id/carOneText"
+        android:layout_marginTop="33dp"
+        android:text="carTwo" />
+
+    <TextView
+        android:id="@+id/gameAreaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/carTwoText"
+        android:layout_below="@+id/carTwoText"
+        android:layout_marginTop="36dp" />
+
+    <TextView
+        android:id="@+id/server_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gameAreaText"
+        android:layout_below="@+id/gameAreaText"
+        android:layout_marginTop="38dp" />
+
+</RelativeLayout>

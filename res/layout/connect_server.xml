@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <Button
+        android:id="@+id/laser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="44dp"
+        android:layout_toRightOf="@+id/left"
+        android:text="@string/laser" />
+
+    <Button
+        android:id="@+id/spin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/right"
+        android:layout_alignLeft="@+id/breaking"
+        android:text="@string/spin" />
+
+    <Button
+        android:id="@+id/breaking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/right"
+        android:layout_marginLeft="64dp"
+        android:layout_toRightOf="@+id/right"
+        android:text="@string/brake" />
+
+    <ImageButton
+        android:id="@+id/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="32dp"
+        android:contentDescription="@string/left"
+        android:src="@drawable/arrow_left" />
+
+    <ImageButton
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/left"
+        android:layout_marginLeft="37dp"
+        android:layout_toRightOf="@+id/laser"
+        android:contentDescription="@string/right"
+        android:src="@drawable/arrow_right" />
+
+    <TextView
+        android:id="@+id/health1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/left"
+        android:layout_below="@+id/breaking"
+        android:text="@string/health"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/health2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/health1"
+        android:layout_below="@+id/health1"
+        android:layout_marginRight="16dp"
+        android:text="@string/_100"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ammo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/health2"
+        android:layout_alignLeft="@+id/laser"
+        android:layout_marginLeft="14dp"
+        android:text="@string/_500"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/energyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Ammo1"
+        android:layout_alignBottom="@+id/Ammo1"
+        android:layout_alignLeft="@+id/right"
+        android:text="@string/energy"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Ammo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ammo2"
+        android:layout_alignLeft="@+id/laser"
+        android:text="@string/ammo1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/speedText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ammo2"
+        android:layout_alignBottom="@+id/ammo2"
+        android:layout_alignRight="@+id/speedText"
+        android:layout_marginRight="16dp"
+        android:text="@string/_50"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/speedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/energyText"
+        android:layout_alignBottom="@+id/energyText"
+        android:layout_toLeftOf="@+id/spin"
+        android:text="@string/speed"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/energyText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/energyText"
+        android:layout_below="@+id/energyText"
+        android:layout_marginLeft="14dp"
+        android:text="@string/_100"
+        android:textSize="18sp" />
+
+</RelativeLayout>

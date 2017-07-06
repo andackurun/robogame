@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RoboGame</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="new_game">New Game</string>
+    <string name="high_scores">High Scores</string>
+    <string name="options">Options</string>
+    <string name="exit">Exit</string>
+    <string name="solo_race">Solo Race</string>
+    <string name="multiplayer_race">Multiplayer Race</string>
+    <string name="lazer_tag">Lazer Tag</string>
+    <string name="deneme">deneme</string>
+    <string name="right">Right</string>
+    <string name="down">Down</string>
+    <string name="left">Left</string>
+    <string name="up">Up</string>
+    <string name="todo">TODO</string>
+    <string name="ru">Right Up</string>
+    <string name="lu">Left Up</string>
+    <string name="rd">Right Down</string>
+    <string name="ld">Left Down</string>
+    <string name="volume">Volume</string>
+    <string name="spin">Spin</string>
+    <string name="laser">Laser</string>
+    <string name="okuma">TextView</string>
+    <string name="breaking">Breaking</string>
+    <string name="health">Health</string>
+    <string name="_100">100</string>
+    <string name="ammo1">Ammo</string>
+    <string name="_500">100</string>
+    <string name="textview">TextView</string>
+    <string name="host">Host</string>
+    <string name="otherplayer">otherPlayer</string>
+    <string name="energy">Energy</string>
+    <string name="speed">Speed</string>
+    <string name="_50">50</string>
+    <string name="title_activity_laser_tag_connector_client">LaserTagConnectorClient</string>
+    <string name="title_activity_connect_client">ConnectClient</string>
+    <string name="action_settings">Settings</string>
+    <string name="red_led">Red Led</string>
+    <string name="green_led">Green Led</string>
+    <string name="yellow_led">Yellow Led</string>
+    <string name="blue_led">Blue Led</string>
+    <string name="_">-</string>
+    <string name="brake">Brake</string>
+
+</resources>
